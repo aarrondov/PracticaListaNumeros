@@ -58,7 +58,7 @@ public class TestListaNumeros
 
 
     public static void testToString(ListaNumeros lista) {
-        System.out.println(lista.toString());
+        System.out.println(lista);
     }
 
 
@@ -80,7 +80,7 @@ public class TestListaNumeros
             System.out.println("No había segundo máximo\n");
         }
         else {
-            System.out.println(lista.toString());
+            System.out.println(lista);
 
         }
 
